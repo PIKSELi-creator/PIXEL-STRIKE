@@ -1,6 +1,11 @@
-using UnityEngine;
-
-public class GameState : MonoBehaviour
+public enum GameState
 {
-    // TODO: Implement this system.
+    Boot,
+    StudioIntro,
+    Loading,
+    MainMenu,
+    Lobby,
+    Playing,
+    Paused,
+    Results
 }
